@@ -1,6 +1,6 @@
 (ns app.tab
   (:require [reagent.core :as r]
-            [app.pricingCard :refer [pricingCard]]))
+            [app.pricing-card :refer [pricing-card]]))
 
 (def display (r/atom "Monthly"))
 (defn change->Month []
@@ -22,7 +22,7 @@
                                                       "block"
                                                       "none")}}
     [:div.pricing-cards
-     (pricingCard
+     (pricing-card
       "$0"
       "month"
       "For small teams or office"
@@ -33,7 +33,7 @@
        "Start free trial"]
       true
       [])
-     (pricingCard
+     (pricing-card
       "$99"
       "month"
       "For small teams or office"
@@ -49,7 +49,7 @@
                                                       "block"
                                                       "none")}}
     [:div.pricing-cards
-     (pricingCard
+     (pricing-card
       "Hz what must be here"
       "annualy"
       "For small teams or office"
@@ -61,7 +61,7 @@
       true
       [{:link "#"
         :display "Or Start 14 days trial"}])
-     (pricingCard
+     (pricing-card
       "Hz what must be here"
       "annually"
       "For small teams or office"

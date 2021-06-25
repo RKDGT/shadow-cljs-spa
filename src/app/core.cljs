@@ -7,20 +7,20 @@
             [app.whyus :refer [whyus]]
             [app.ultimatefeature :refer [uFeature]]
             [app.pricing :refer [pricing]]
-            [app.testimonila :refer [testmonila]]))
+            [app.testimonila :refer [testmonila]]
+            [app.faq :refer [faq]]))
 
 (defn body []
   [:<>
-   (header)
-   (feature)
-   (smartJ)
-   (designed)
-   (whyus)
-   (uFeature)
-   (pricing)
-   (testmonila)
-   ]
-  )
+   [header]
+   [feature]
+   [smartJ]
+   [designed]
+   [whyus]
+   [uFeature]
+   [pricing]
+   [testmonila]
+   [faq]])
 
 (defn ^:dev/after-load render
   "Render the toplevel component for this app."

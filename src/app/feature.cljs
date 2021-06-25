@@ -1,5 +1,5 @@
 (ns app.feature
-  (:require [app.descCard :refer [dCard]]))
+  (:require [app.desc-card :refer [dCard]]))
 
 (defn feature []
   [:<> 

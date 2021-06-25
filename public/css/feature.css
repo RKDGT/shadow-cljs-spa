@@ -30,10 +30,10 @@
   width: auto;
   padding-top: 150px;
   display: flex;
+  justify-content: center;
 }
 
 .feature-phone {
-  padding-left: 67px;
   width: 665px;
   height: 877px;
 }

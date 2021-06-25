@@ -1,0 +1,62 @@
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 115px;
+  }
+  
+  .accordion-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .accordion {
+    width: 970px;
+  }
+  .accordion .card-header.collapsed:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    float: right;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-header p {
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .card-body{
+    font-size: 18px;
+  }
+  .card-title{
+    font-size: 25px;
+  }
+  
+  @media (min-width: 2000px) {
+    .FAQ {
+      padding-top: 150px;
+      padding-bottom: 300px;
+    }
+  
+    .accordion {
+      width: 1800px;
+    }
+    .accordion .card-header.collapsed:after {
+      font-family: "FontAwesome";
+      content: "\f067";
+      float: right;
+    }
+    .card-body{
+      font-size: 36px;
+    }
+    .card-title{
+      font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .FAQ {
+      padding-top: 400px;
+    }
+  }

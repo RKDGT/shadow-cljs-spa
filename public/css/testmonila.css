@@ -1,0 +1,77 @@
+.testimonila {
+    padding-top: 130px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+  }
+  .testimonila-main-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonila-main-content-header-description {
+    font-size: 18px;
+  }
+  .testimonila-main-content-header-title,
+  .testimonila-main-content-header-description {
+    text-align: left;
+    width: 500px;
+  }
+  .testimonila-main-content-header-title {
+    font-size: 32px;
+  }
+  .link-sub {
+    font-size: 18px;
+    font-family: "Poppins";
+  }
+  
+  @media (min-width: 2000px) {
+    .testimonila {
+      padding-top: 260px;
+      padding-bottom: 300px;
+    }
+    .testimonila-main-content-header-title,
+    .testimonila-main-content-header-description {
+      width: 1000px;
+    }
+    .link-sub {
+      font-size: 36px;
+    }
+  
+    .testimonila-main-content-header-title {
+      font-size: 64px;
+    }
+    .testimonila-main-content-header-description {
+      font-size: 40px;
+    }
+    .testimonila-picture {
+      width: 1000px;
+    }
+    @media (min-width: 2160px) {
+      .testimonila {
+        justify-content: center;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1423px) {
+    .testimonila{
+      justify-content: center;
+    }
+    .testimonila-picture {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .testimonila{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .testimonila-main-content-header-description, .testimonila-main-content-header-title {
+      width: 300px;
+    }
+    
+  }
+  

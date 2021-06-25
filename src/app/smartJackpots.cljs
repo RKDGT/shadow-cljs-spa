@@ -1,5 +1,5 @@
 (ns app.smartJackpots
-  (:require [app.descCard :refer [dCard]]))
+  (:require [app.desc-card :refer [dCard]]))
 
 (defn smartJ []
   [:div.smart-jackpot

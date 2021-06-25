@@ -1,5 +1,5 @@
 (ns app.ultimatefeature
-  (:require [app.descCard :refer [dCard]]
+  (:require [app.desc-card :refer [dCard]]
             [app.button :refer [button]]))
 
 (defn uFeature []
