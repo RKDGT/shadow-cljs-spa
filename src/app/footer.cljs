@@ -11,9 +11,9 @@
     [:a#header-main "Home"]
     [:a#feature "Feature"]
     [:a#why-us "Why-us"]
-    [:a#pricing "Pricing"]
+    [:a#pricig "Pricing"]
     [:a#testimonila "Testimonila"]
-    [:a#FAQ]]
+    [:a#FAQ "FAQ"]]
    [:div.footer-sub-links 
     [:a {:href "https://www.facebook.com/"
          :target "_blank"

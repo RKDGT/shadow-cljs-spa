@@ -8,7 +8,8 @@
             [app.ultimatefeature :refer [uFeature]]
             [app.pricing :refer [pricing]]
             [app.testimonila :refer [testmonila]]
-            [app.faq :refer [faq]]))
+            [app.faq :refer [faq]]
+            [app.footer :refer [footer]]))
 
 (defn body []
   [:<>
@@ -20,7 +21,8 @@
    [uFeature]
    [pricing]
    [testmonila]
-   [faq]])
+   [faq]
+   [footer]])
 
 (defn ^:dev/after-load render
   "Render the toplevel component for this app."
