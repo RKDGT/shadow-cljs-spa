@@ -1,0 +1,23 @@
+.try-for-free-btn {
+  font-size: 18px;
+  background-color: rgb(37, 0, 249);
+  width: 170px;
+  height: 58px;
+  border: unset;
+  border-radius: calc(10px + 2.5vw);
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 2000px) {
+  .try-for-free-btn {
+    font-size: 36px;
+    background-color: rgb(37, 0, 249);
+    width: 340px;
+    height: 116px;
+    border: unset;
+    border-radius: calc(10px + 2.5vw);
+    text-align: center;
+    color: white;
+  }
+}

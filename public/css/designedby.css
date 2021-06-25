@@ -1,0 +1,79 @@
+.designed-built-by {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.designed-built-by-img {
+  height: 630px;
+}
+.designed-built-by-text {
+  padding-left: 100px;
+  width: 430px;
+  padding-top: 10%;
+  float: left;
+}
+.designed-built-by-text p {
+  padding-left: 0px;
+}
+.designed-built-by-header {
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+}
+
+@media (min-width: 2000px) {
+  .designed-built-by-img {
+    height: 1100px;
+  }
+  .designed-built-by-text {
+    padding-left: 20px;
+    width: 720px;
+    padding-top: 10%;
+  }
+  .designed-built-by-text .smart-jackpot-header-description{
+    font-size: 36px;
+    width: 700px;
+  }
+  .designed-built-by-header {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1423px) {
+  .designed-built-by-text {
+    padding-left: 20px;
+    width: 520px;
+    padding-top: 10%;
+  }
+  .designed-built-by-img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .designed-built-by{
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .designed-built-by-text{
+    text-align: center;
+    padding-left: 0px;
+  }
+  .designed-built-by-text .feature-text-header, .designed-built-by-text .smart-jackpot-header-description{
+    width: auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .designed-built-by-img{
+    width: 344px;
+    height: 315px;
+  }
+  .designed-built-by-text{
+    width: 300px;
+  }
+}

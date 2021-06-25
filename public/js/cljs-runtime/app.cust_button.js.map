@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/cust_button.cljs"],"mappings":";AAIA,8BAAA,9BAAMA,oEAAaC;AAAnB,AAAA,0FAAA,8CACMA","names":["app.cust-button/cust-button","text"],"sourcesContent":["(ns app.cust-button\n  (:require [reagent.core :as r]))\n\n\n(defn cust-button [text]\n  [:p text])"]}

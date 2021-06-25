@@ -1,0 +1,30 @@
+#pricing {
+  align-items: center;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: auto;
+  padding-bottom: 90px;
+}
+.pricing-tab-container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 2px 2px 2px 2px;
+}
+.pricing-cards {
+  display: flex;
+  margin-top: 20px;
+  width: auto;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,128 @@
+.header {
+    background-image: url("../../img/sub-layear-nth.png"),
+      url("../../img/city-header.png"), url("../../img/Layer 3.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left bottom, bottom, center;
+    background-color: rgba(0, 0, 0, 0.0188);
+    top: 0px;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+  }
+  .header-content {
+    width: 1170px;
+    top: 0px;
+    align-items: center;
+  }
+  .header-main {
+    display: flex;
+    justify-content: center;
+    width: 1130px;
+  }
+  .header-main-text {
+    padding-top: 175px;
+    width: 50%;
+  }
+  .header-main-text-1-editiors-choice {
+    font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(36, 47, 81);
+  }
+  .header-main-text-best-app-for {
+    font-size: 40px;
+    font-family: "Poppins";
+    color: rgb(24, 37, 95);
+    font-weight: bold;
+    line-height: 1.25;
+  }
+  
+  .text-sub {
+    font-size: 18px;
+    font-family: "Poppins";
+    color: rgb(97, 99, 104);
+  }
+  .header-main-text-buttons a {
+    padding-left: 20px;
+    color: indigo;
+  }
+  
+  .header-main-phone-pict {
+    height: 732px;
+  }
+  
+  @media (min-width: 2000px) {
+    .header {
+      padding-bottom: 220px;
+    }
+    .header-content {
+      width: 1900px;
+    }
+    .header-main {
+      width: 1920px;
+    }
+    .header-main-text {
+      padding-top: 320px;
+    }
+    .header-main-text-1-editiors-choice {
+      font-size: 36px;
+    }
+    .header-main-text-best-app-for {
+      font-size: 80px;
+    }
+  
+    .text-sub {
+      font-size: 36px;
+    }
+    .header-main-text-buttons a {
+      padding-left: 40px;
+    }
+  
+    .header-main-phone-pict {
+      height: 1400px;
+    }
+    .header-main-text-buttons a {
+      font-size: 36px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1423px) {
+    .header-main {
+      width: 1000px;
+    }
+    .header-content {
+      width: 1000px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .header-main-phone-pict {
+      width: 700px;
+      order: 1;
+    }
+    .header-main-text {
+      order: 2;
+    }
+    .header-main {
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+    }
+    .header-content{
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-main-phone-pict, .header-main, .header-content{
+      width: 300px;
+    }
+    .header-main {
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

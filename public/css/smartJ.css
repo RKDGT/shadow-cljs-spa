@@ -1,0 +1,86 @@
+.smart-jackpot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-top: 100px;
+}
+.smart-jackpot-header {
+  display: flex;
+  justify-content: center;
+}
+
+.smart-jackpot-header-title {
+  width: 500px;
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+  border-right: 2px solid black;
+}
+.smart-jackpot-header-description {
+  font-size: 18px;
+  padding-left: 5%;
+  width: 410px;
+  padding-top: 1%;
+}
+
+.smart-jackpot-cards {
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 90px;
+}
+
+@media (min-width: 2000px) {
+  .smart-jackpot {
+    padding-top: 200px;
+  }
+  .smart-jackpot-header-title {
+    width: 1000px;
+    font-size: 70px;
+    border-right: 4px solid black;
+  }
+  .smart-jackpot-header-description {
+    font-size: 36px;
+    padding-left: 5%;
+    width: 820px;
+    padding-top: 1%;
+  }
+  .smart-jackpot-cards {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+}
+@media (max-width: 1024px) {
+  .smart-jackpot-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .smart-jackpot-header-title {
+    border-bottom: 2px solid black;
+    border-right: none;
+  }
+  .smart-jackpot-header-description {
+    padding-left: 0px;
+  }
+  .smart-jackpot-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .smart-jackpot-header-description, .smart-jackpot-header-title {
+    width: 300px;
+  }
+  .smart-jackpot-header-description{
+    font-size: 22px;
+  }
+  .smart-jackpot-header{
+    text-align: center;
+  }
+}
+  

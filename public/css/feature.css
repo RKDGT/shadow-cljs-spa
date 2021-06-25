@@ -1,0 +1,129 @@
+.feature {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-header {
+  font-size: 18px;
+  padding-top: 100px;
+}
+
+.top-trusted-companies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.top-trusted-companies img {
+  height: 100px;
+  width: 200px;
+  padding-left: 30px;
+}
+.top-trusted-companies img:first-of-type {
+  padding-left: 0px;
+}
+
+.feature-content {
+  display: flex;
+  width: auto;
+  padding-top: 150px;
+  display: flex;
+}
+
+.feature-phone {
+  padding-left: 67px;
+  width: 665px;
+  height: 877px;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.feature-text-header {
+  width: 300px;
+  font-size: 35px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: rgb(24, 37, 95);
+}
+
+@media (min-width: 2000px) {
+  .top-header {
+    font-size: 36px;
+    padding-top: 200px;
+  }
+
+  .top-trusted-companies img {
+    height: 150px;
+    width: 300px;
+    padding-left: 60px;
+  }
+
+  .feature-content {
+    padding-top: 300px;
+  }
+
+  .feature-phone {
+    padding-left: 120px;
+    width: 1240px;
+    height: 1600px;
+  }
+
+  .feature-text {
+    width: 900px;
+    padding-top: 100px;
+    padding-left: 40px;
+  }
+
+  .feature-text-header {
+    width: 600px;
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1423px) {
+  .feature-phone {
+    padding-left: 30px;
+    width: 400px;
+    height: 500px;
+  }
+  .feature-content{
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .top-trusted-companies{
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-phone{
+    padding-left: 0px;
+  }
+  .feature-text{
+    padding-left: 0px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .feature-phone{
+    width: 330px;
+    height: 435px;
+  }
+  .feature-text{
+    
+    width: 300px;
+
+  }
+}

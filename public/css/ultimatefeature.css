@@ -1,0 +1,108 @@
+.ultimate-features-that-we-built {
+  align-items: center;
+  padding-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 150px;
+}
+
+.ultimate-features-that-we-built-text {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding-left: 100px;
+}
+.ultimate-features-that-we-built-phone {
+  height: 800px;
+}
+.ultimate-features-that-we-built-text-header {
+  width: 335px;
+  text-align: left;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: black;
+}
+.ultimate-features-that-we-built-text-sub {
+  font-size: 21px;
+  width: 400px;
+}
+
+.ultimate-features-that-we-built-text .why-choose-us-cards:last-of-type {
+  padding-bottom: 50px;
+}
+
+
+@media (min-width: 2000px) {
+  .ultimate-features-that-we-built {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+  
+  .ultimate-features-that-we-built-text {
+    width: 900px;
+    padding-left: 200px;
+  }
+  .ultimate-features-that-we-built-phone {
+    height: 1100px;
+  }
+  .ultimate-features-that-we-built-text-header {
+    width: 660px;
+    font-size: 60px;
+  }
+  .ultimate-features-that-we-built-text-sub {
+    font-size: 42px;
+    width: 800px;
+  }
+  
+  .ultimate-features-that-we-built-text .why-choose-us-cards:last-of-type {
+    padding-bottom: 100px;
+  }
+
+  @media (min-width: 2200px){
+    .ultimate-features-that-we-built-text {
+      width: 1200px;
+      padding-left: 200px;
+    }    
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1423px) {
+  .ultimate-features-that-we-built {
+    justify-content: center;
+  }
+  .ultimate-features-that-we-built-phone {
+    height: 450px;
+  }
+  .ultimate-features-that-we-built-text {
+    padding-left: 50px;
+  }    
+}
+
+@media (max-width: 1024px) {
+  .ultimate-features-that-we-built{
+   flex-direction: column;
+    align-items: center;
+  }
+  .ultimate-features-that-we-built-text{
+    align-items: center;
+    padding-left: 0px ;
+    order:2;
+  }
+  .ultimate-features-that-we-built-phone{
+    order:1;
+  }
+  .ultimate-features-that-we-built-text .why-choose-us-cards{
+    align-items: center;
+  }
+  .ultimate-features-that-we-built-text p{
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .ultimate-features-that-we-built-phone{
+    width: 300px;
+    height: 360px;
+  }
+}
